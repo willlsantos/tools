@@ -8,7 +8,7 @@
     - name: Install basic tools
       import_playbook: basic-ubuntu.yml
     - name: Configure terminal
-      import_playbook: termina.yml
+      import_playbook: terminal.yml
     - name: Configure Terraform
       import_playbook: terraform.yml
     - name: Configure Docker
